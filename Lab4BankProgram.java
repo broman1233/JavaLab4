@@ -4,7 +4,9 @@ public class Lab4BankProgram {
 	public static void main(String[] args) 
 	{
 		int programOption = -1 ;
-		
+		BankAccount bankNum1 = new BankAccount();
+		BankAccount bankNum2 = new BankAccount();
+		BankAccount bankNum3 = new BankAccount();
 		startMsg();
 		Scanner option = new Scanner(System.in);
 		
@@ -17,13 +19,13 @@ public class Lab4BankProgram {
 		            System.out.println("");
 		            break;
 		        case 2: 
-		            // ..something else
+		            // Deposit
 		            break;
 		        case 3: 
-		            // .. exit program
+		            // Withdrawl
 		            break;
 		        case 4: 
-		            // .. exit program
+		            // Transfer
 		            break;
 		        case 5: 
 		            // .. exit program
